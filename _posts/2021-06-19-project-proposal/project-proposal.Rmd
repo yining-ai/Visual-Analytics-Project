@@ -24,7 +24,8 @@ We ultimately aim to shed some light onto the people and the locations that the 
 
 # 2.	Objectives
 
-We will use the data including two parts. One is tracking data for the two weeks leading up to the disappearance, and the other is credit card transactions and loyalty card usage data. We will use geographical data as a complement.  
+We will use the data including two parts. One is tracking data for the two weeks leading up to the disappearance, and the other is credit card transactions and loyalty card usage data. We will use geographical data as a complement. 
+![](MC2-tourist.jpg)
 
 # 3.	Problem and issue
 
@@ -33,10 +34,10 @@ The number of kidnap case is quite large in this region. To better find the susp
 # 4.	The relevant related work
 
 Here is some related works we found.
-Related work from 2014:
-https://github.com/z-yuchen97/Patterns-at-GAStech/tree/master/pictures
-Social: network, igraph, tidygraph
-https://www.jessesadler.com/post/network-analysis-with-r/
+*[Related work from 2014](https://github.com/z-yuchen97/Patterns-at-GAStech/tree/master/pictures)*
+*[Social relationship finding: network, igraph, tidygraph](https://www.jessesadler.com/post/network-analysis-with-r/)*
+
+
 
 # 5.	The approach to solve the problems
 
