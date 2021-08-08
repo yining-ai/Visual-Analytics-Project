@@ -136,6 +136,9 @@ server <- function(input, output) {
       geom_tile()
   })
   
+  
+  
+  # error
   filt_df <- reactive({
     popular_credit_card %>%
       filter(Date == input$date_bar) %>%
