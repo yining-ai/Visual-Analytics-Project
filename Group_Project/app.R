@@ -5,6 +5,8 @@
 #
 
 library(shiny)
+library(tidyverse)
+#comb <- read_csv("Group_Project/card_joined2.csv")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
