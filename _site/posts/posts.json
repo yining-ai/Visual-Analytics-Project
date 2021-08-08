@@ -15,5 +15,22 @@
     "preview": {},
     "last_modified": "2021-06-19T11:14:07+08:00",
     "input_file": {}
+  },
+  {
+    "path": "posts/2021-06-19-project-proposal/",
+    "title": "Project Proposal",
+    "description": "Abstract \n\nThis project will mainly focus on VAST Mini Challenge 2. Our team will focus on solving the problems VAST raised and give the intuitive visualization how we solve the problems. Moreover, we will provide some suggestions on how to prevent the situations in the future. The project will use R packages from network, igraph and tidygraph.",
+    "author": [
+      {
+        "name": "Peirong LIN Yining BAI Manye LIU",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-06-19",
+    "categories": [],
+    "contents": "\r\n1. Motivation of Project\r\nWe ultimately aim to shed some light onto the people and the locations that the law enforcement should investigate by analyzing the movement and tracking data provided, thereby contributing to the investigation towards finding the missing staff members.\r\n2. Objectives\r\nWe will use the data including two parts. One is tracking data for the two weeks leading up to the disappearance, and the other is credit card transactions and loyalty card usage data. We will use geographical data as a complement.\r\n3. Problem and issue\r\nThe number of kidnap case is quite large in this region. To better find the suspect and reduce the case happening, we need to find the suspects regarding to the data we have.\r\n4. The relevant related work\r\nHere is some related works we found. Related work from 2014: https://github.com/z-yuchen97/Patterns-at-GAStech/tree/master/pictures Social: network, igraph, tidygraph https://www.jessesadler.com/post/network-analysis-with-r/\r\n5. The approach to solve the problems\r\nTasks and Questions:\r\nUsing just the credit and loyalty card data, identify the most popular locations, and when they are popular. What anomalies do you see? What corrections would you recommend to correct these anomalies?\r\n\r\nAns: We can use the map to build the geographical chart to visualize the most popular location, and indicate the most popular time to visit. Anomalies can be the difference popular location between suspect and normal people. (Since we only have two weeks of data, we can only know the recent popular area a person would often go, if the place is far away from the majority, he/she might be the suspect.)\r\nAdd the vehicle data to your analysis of the credit and loyalty card data. How does your assessment of the anomalies in question 1 change based on this new data\r\n\r\nAns: We can draw line plot based on the location (latitude and longitude) for every minute move. Then, we can compare the result with question 1.\r\nCan you infer the owners of each credit card and loyalty card? What is your evidence? Where are there uncertainties in your method? Where are there uncertainties in the data?\r\n\r\nAns: By using Timestamp, location and price, we can find the relationship between credit card and loyalty card. We can know for a loyalty card, which credit card is often used after using this loyalty card. There might be some uncertainties because we don’t have the information of name.\r\nGiven the data sources provided, identify potential informal or unofficial relationships among GASTech personnel. Provide evidence for these relationships.\r\n\r\nAns: First, we need to transform latitude and longitude to location. Then, combining with the data with timestamp, we can track the name and merge it with loyalty card and credit card information.\r\nGiven the data sources provided, identify potential informal or unofficial relationships among GASTech personnel. Provide evidence for these relationships.\r\n\r\nAns: We will first solve the problems individually and after finishing all the steps, we will discuss and combine the works together.\r\n6. Storyboard\r\nWe will use Rshiny to show the storyboard finally. After finishing our assignments individually, we will combine our storyboard into 1.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-06-19T12:40:40+08:00",
+    "input_file": "project-proposal.knit.md"
   }
 ]
