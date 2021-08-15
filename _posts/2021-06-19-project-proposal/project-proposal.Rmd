@@ -3,7 +3,7 @@ title: "Project Proposal"
 description: |
   Abstract 
   
-  This project will mainly focus on VAST Mini Challenge 2. Our team will focus on solving the problems VAST raised and give the intuitive visualization how we solve the problems. Moreover, we will provide some suggestions on how to prevent the situations in the future. The project will use R packages from network, igraph and tidygraph. 
+  This project will mainly focus on VAST Mini Challenge 2. Our team will focus on solving the problems VAST raised and give the intuitive visualization how we solve the problems. Moreover, we will provide some suggestions on how to prevent the situations in the future. The project will use R packages from tmap, igraph and tidygraph. 
 author:
   - name: Peirong LIN Yining BAI Manye LIU
     url: https://visualanalyticsproject.netlify.app/
@@ -67,4 +67,24 @@ Tasks and Questions:
 
 We will use Rshiny to show the storyboard finally. After finishing our assignments individually, we will combine our storyboard into 1.
 
+1)
+
+![](dashboard/1.jpeg)
+
+2)
+
+![](dashboard/2.jpeg)
+
+
+3)
+
+![](dashboard/3.jpeg)
+
+4) 
+
+![](dashboard/4.jpeg)
+
+5)
+
+![](dashboard/5.jpeg)
 
