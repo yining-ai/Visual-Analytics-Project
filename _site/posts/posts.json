@@ -46,6 +46,18 @@
     "input_file": "research-paper.knit.md"
   },
   {
+    "path": "posts/2021-08-15-poster/",
+    "title": "poster",
+    "description": {},
+    "author": [],
+    "date": "2021-08-15",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-08-15T21:18:56+08:00",
+    "input_file": "poster.knit.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Visual Analytics Project",
     "description": "Welcome to our new blog, Visual Analytics Project. We hope you enjoy \nreading what we have to say!",
