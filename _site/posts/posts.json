@@ -37,17 +37,12 @@
     "path": "posts/2021-08-15-research-paper/",
     "title": "Research Paper",
     "description": {},
-    "author": [
-      {
-        "name": "G2 Group 8",
-        "url": "https://visualanalyticsproject.netlify.app/"
-      }
-    ],
+    "author": [],
     "date": "2021-08-15",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-08-15T20:41:08+08:00",
+    "last_modified": "2021-08-15T20:46:52+08:00",
     "input_file": "research-paper.knit.md"
   },
   {
