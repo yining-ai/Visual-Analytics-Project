@@ -17,6 +17,23 @@
     "input_file": "shiny-application.knit.md"
   },
   {
+    "path": "posts/2021-08-15-application-user-guide/",
+    "title": "Application User Guide",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "G2 Group 8",
+        "url": "https://visualanalyticsproject.netlify.app/"
+      }
+    ],
+    "date": "2021-08-15",
+    "categories": [],
+    "contents": "\r\nThis shiny application contains mainly two parts, Exploratory Data Analysis(EDA) and Geospatial Mapping Visualization(GMV). Here is the overview of the panel.\r\n After you open the link of application, click the bar in the red frame to show the tabs.\r\n\r\nIt appears two tabs, which corresponds to two main functions.\r\n\r\n1. EDA\r\nUse this tab to do exploratory data analysis.\r\n\r\nClick the white triangle to find sub tabs.\r\n\r\n1.1 Ridge Plot\r\nClick Ridge Plot in the red box.\r\n\r\n\r\nAt the right side of the tab, there are two inputs for user to select.\r\n\r\nClick the black triangle to show the choices.\r\n\r\nUser can select a general category of location on the left side or choose a specific location on the right side.\r\n\r\n\r\n1.2 Bar Plot\r\nClick Bar Plot in the red box.\r\n\r\n\r\nAt the top, there are tow blanks(in red boxes) for user to input the date and number of top popular locations.\r\n\r\nClick in the Select date: blank to select date.\r\n\r\nClick in the Choose a number blank. User can use up-down triangle to adjust the number of bars to shown in the bar plot.\r\n\r\n\r\n1.3 Employee Info\r\nClick Employee Info in the red box.\r\n\r\n\r\nAt the input sidebar, there are four panel for user to filter.\r\n\r\nFor each panel, click the black triangle(highlighted in red box) to show the whole choices. User can decide to choose name, ID, Employee Type or Employee Title to do the filtering.\r\n\r\n2. GMV\r\nUse this tab to do Geospatial Mapping Visualization.\r\n\r\nClick the white triangle to find sub tabs.\r\n\r\n2.1 Line Plot\r\nClick Line Plot in the red box.\r\n\r\n\r\nThere are two features for user to select.\r\n\r\nClick the black triangle to choose the ID.\r\n\r\nUser can use mouse th drag the white dot to filter time.\r\n\r\n2.2 Dot Plot\r\nClick Dot Plot in the red box.\r\n\r\n\r\nDrag down the website to see the plot.\r\n\r\nThere are four features for user to select.\r\n\r\nClick the black triangle to choose the ID.\r\n\r\nUser can use mouse th drag the white circle to filter time.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-08-15T18:11:08+08:00",
+    "input_file": "application-user-guide.knit.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Visual Analytics Project",
     "description": "Welcome to our new blog, Visual Analytics Project. We hope you enjoy \nreading what we have to say!",

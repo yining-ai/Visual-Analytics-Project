@@ -1,0 +1,162 @@
+---
+title: "Application User Guide"
+description: |
+  A short description of the post.
+author:
+  - name: G2 Group 8
+    url: https://visualanalyticsproject.netlify.app/
+date: 08-15-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+This shiny application contains mainly two parts, Exploratory Data Analysis(EDA) and Geospatial Mapping Visualization(GMV). Here is the overview of the panel.
+
+![](screenshot/1.png)
+After you open the link of application, click the bar in the red frame to show the tabs.
+
+![](screenshot/2.png)
+
+It appears two tabs, which corresponds to two main functions. 
+
+![](screenshot/3.png)
+
+
+# 1. EDA
+
+Use this tab to do exploratory data analysis.
+
+![](screenshot/4.png)
+
+Click the white triangle to find sub tabs.
+
+![](screenshot/6.png)
+
+### 1.1 Ridge Plot
+
+1) Click *Ridge Plot* in the red box. 
+
+![](screenshot/7.png)
+
+
+![](screenshot/8.png)
+
+2) At the right side of the tab, there are two inputs for user to select. 
+
+![](screenshot/9.png)
+
+3) Click the black triangle to show the choices.
+
+![](screenshot/10.png)
+
+4) User can select a general category of location on the left side or choose a specific location on the right side.
+
+![](screenshot/11.png)
+
+![](screenshot/12.png)
+
+### 1.2 Bar Plot
+
+1) Click *Bar Plot* in the red box. 
+
+![](screenshot/13.png)
+
+![](screenshot/14.png)
+
+2) At the top, there are tow blanks(in red boxes) for user to input the date and number of top popular locations.
+
+![](screenshot/15.png)
+
+3) Click in the *Select date:* blank to select date. 
+
+![](screenshot/16.png)
+
+4) Click in the *Choose a number* blank. User can use up-down triangle to adjust the number of bars to shown in the bar plot.
+
+![](screenshot/17.png)
+
+![](screenshot/18.png)
+
+### 1.3 Employee Info
+
+1) Click *Employee Info* in the red box. 
+
+![](screenshot/19.png)
+
+![](screenshot/20.png)
+
+2) At the input sidebar, there are four panel for user to filter.
+
+![](screenshot/21.png)
+
+3) For each panel, click the black triangle(highlighted in red box) to show the whole choices. User can decide to choose name, ID, Employee Type or Employee Title to do the filtering.
+
+![](screenshot/22.png)
+![](screenshot/23.png)
+![](screenshot/24.png)
+![](screenshot/25.png)
+![](screenshot/26.png)
+![](screenshot/27.png)
+![](screenshot/28.png)
+![](screenshot/29.png)
+
+
+# 2. GMV
+
+Use this tab to do Geospatial Mapping Visualization.
+
+![](screenshot/30.png)
+
+Click the white triangle to find sub tabs.
+
+![](screenshot/31.png)
+
+### 2.1 Line Plot
+
+1) Click *Line Plot* in the red box. 
+
+![](screenshot/32.png)
+
+![](screenshot/33.png)
+
+2) There are two features for user to select. 
+
+![](screenshot/34.png)
+
+3) Click the black triangle to choose the ID.
+
+![](screenshot/35.png)
+
+4) User can use mouse th drag the white dot to filter time.
+
+![](screenshot/36.png)
+
+### 2.2 Dot Plot
+
+1) Click *Dot Plot* in the red box.
+
+![](screenshot/37.png)
+
+![](screenshot/38.png)
+
+Drag down the website to see the plot.
+
+![](screenshot/39.png)
+
+2) There are four features for user to select. 
+
+![](screenshot/40.png)
+
+3) Click the black triangle to choose the ID.
+
+![](screenshot/41.png)
+
+4) User can use mouse th drag the white circle to filter time.
+
+![](screenshot/42.png)
+
+![](screenshot/43.png)
+
+![](screenshot/44.png)
+
