@@ -12,11 +12,11 @@ for (p in packages){
 }
 
 # Load the credit card dataset in the environment.
-credit_card <- read.csv("data_MC2/cc_data.csv")
+credit_card <- read.csv("Group_Project/cc_data.csv")
 
 # Load the loyalty card dataset in the environment.
 
-loyalty_card <- read.csv("data_MC2/loyalty_data.csv")
+loyalty_card <- read.csv("Group_Project/loyalty_data.csv")
 
 # Since some payment might not use loyalty card to record, the price will automatically goes to another column. Therefore, we need to put them back to the correct column.
 loyalty_card$loyaltynum <- ifelse(is.na(loyalty_card$loyaltynum), loyalty_card$price, loyalty_card$loyaltynum)
