@@ -6,7 +6,7 @@ description: |
   This project will mainly focus on VAST Mini Challenge 2. Our team will focus on solving the problems VAST raised and give the intuitive visualization how we solve the problems. Moreover, we will provide some suggestions on how to prevent the situations in the future. The project will use R packages from network, igraph and tidygraph. 
 author:
   - name: Peirong LIN Yining BAI Manye LIU
-    url: https://example.com/norajones
+    url: https://visualanalyticsproject.netlify.app/
 date: 06-19-2021
 output:
   distill::distill_article:

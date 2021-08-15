@@ -1,0 +1,16 @@
+---
+title: "Shiny Application"
+description: |
+  Shiny Application and Github link
+author:
+  - name: G2 Group 8
+    url: https://visualanalyticsproject.netlify.app/
+date: 08-15-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Shiny dashboard is available at: *[visual project shiny app]( https://perry-lin.shinyapps.io/Visual-Analytics-Project/)*
+
+The source code and data are available at *[github.com](https://github.com/yining-ai/Visual-Analytics-Project)*
