@@ -1,10 +1,13 @@
 
 
 
-library(shiny)
-library(dplyr)
-library(shinydashboard)
-library(tidyr)
+packages = c('shinydashboard', 'igraph', 'tidygraph', 'ggjoy', 'clock', 'ggraph', 'visNetwork', 'lubridate', 'tidyverse','dplyr', 'tidyr','raster','sf','sp','tmap', 'gifski', 'writexl', 'mapview', 'ggplot2', 'data.table')
+for (p in packages){
+  if(!require(p, character.only = T)){
+    install.packages(p)
+  }
+  library(p,character.only = T)
+}
 
 # Load the credit card dataset in the environment.
 credit_card <- read.csv("data_MC2/cc_data.csv")
