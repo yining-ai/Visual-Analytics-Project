@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-08-15-shiny-application/",
+    "title": "Shiny Application",
+    "description": "Shiny Application and Github link",
+    "author": [
+      {
+        "name": "G2 Group 8",
+        "url": "https://visualanalyticsproject.netlify.app/"
+      }
+    ],
+    "date": "2021-08-15",
+    "categories": [],
+    "contents": "\r\nShiny dashboard is available at: visual project shiny app\r\nThe source code and data are available at github.com\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-08-15T15:30:30+08:00",
+    "input_file": "shiny-application.knit.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Visual Analytics Project",
     "description": "Welcome to our new blog, Visual Analytics Project. We hope you enjoy \nreading what we have to say!",
