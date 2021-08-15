@@ -153,15 +153,13 @@ ui <- dashboardPage(
                                   label = "Choose a location:",
                                   choices = c("Abila Scrapyard",
                                               "Abila Zacharo",
-                                              "Brewed Aweakenings",
-                                              "Daily Dealz",
                                               "Hippokampos",
                                               "Kalami Kafenion",
                                               "Kronos Pipe and Irrigation",
                                               "Octavio's Office Supplies",
                                               "Shoppers' Delight",
-                                              "Stewart and Sons Fabrication",
-                                              "U-Pump"))),
+                                              "Stewart and Sons Fabrication"
+                                              ))),
                   box(width=6,
                       plotOutput("ridge1")),
                   box(width=6,
@@ -225,8 +223,10 @@ ui <- dashboardPage(
                                 min = 6,
                                 max = 19,
                                 value = 6,
-                                step = 1)),
-                  box(plotOutput("mapPlot1"))
+                                step = 1))),
+                fluidRow(
+                  box(width = NULL,
+                      plotOutput("mapPlot1"))
                
                 )),
         tabItem(tabName = "dotgraph",
@@ -334,6 +334,7 @@ server <- function(input, output,session){
                y = filt_df()$location)) +
       geom_text(aes(label = filt_df()$count), hjust = -1, colour = "white") +
       geom_col(fill="lightblue") +
+      labs(x = "count",y = "location")+
       theme_dark()
   })
   
