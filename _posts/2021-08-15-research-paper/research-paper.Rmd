@@ -1,0 +1,12 @@
+---
+title: "Research Paper"
+
+
+---
+
+![](research paper/page1.png)
+![](research paper/page2.png)
+![](research paper/page3.png)
+![](research paper/page4.png)
+![](research paper/page5.png)
+![](research paper/page6.png)
