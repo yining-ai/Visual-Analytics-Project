@@ -23,8 +23,10 @@ output: rticles::acm_article
 The dataset is from [Mini Challenge 2](https://vast-challenge.github.io/2021/MC2.html). The whole dataset contains two parts. One is geospatial data, which includes the information of building map. The other is the statistics data, including car assignment data, credit card data, loyalty card data and gps data.
 
 The analysis is going to be performed in two sections:
-* Exploratory Data Analysis (EDA)
-* Geographical Map Visualization (GMV)
+
+1. Exploratory Data Analysis (EDA)
+
+2. Geographical Map Visualization (GMV)
 
 
 # Objective and Motivation of the application
@@ -140,11 +142,11 @@ The shiny app can be used to find the most popular place. Once you input the dat
 
 ![](picture/11.png)
 
-4. The shiny app of geospatial map visualization can be used for finding people’s track. Just like trace together, once we input the start time and end time, as well as the ID, we can easily see the routes of this ID. Combining gps data and the purchase data, we can find the daily habbit and his/her preference routes. This can be useful when we need to find the anomalies. 
+4. The shiny app of geospatial map visualization can be used for finding people’s track. Just like trace together, once we input the date, as well as the ID, we can easily see the routes of this ID. Combining gps data and the purchase data, we can find the daily habbit and his/her preference routes. This can be useful when we need to find the anomalies. 
 Here are some anomalies analyses.
 When compare the transaction records and gps information, we found that some vehicles were in the same geographical location at the same time. Such institution can be regarded as suspicious ones and to draw their movement track to explore their relationship.
-The first suspicious pair we find is card ID 33 and 7. The line graph and dot graph are dyrawn below. The two visited the Chostus Hotel several time at 13pm and visited restaurants at evening. And they even have some tracks in the same apartment. The owners of the cars are Elsa Orilla and Brand Tempestad seperately. And they have the same employment type and employment title.
-In the following graphs, the purple color represents the ID 33 and the light yellow color represents ID 7.
+The first suspicious pair we find is card ID 33 and 7. The line graph and dot graph are drawn below. The two visited the Chostus Hotel several time at 13pm and visited restaurants at evening. And they even have some tracks in the same apartment. The owners of the cars are Elsa Orilla and Brand Tempestad separately. And they have the same employment type and employment title.
+In the following graphs, the purple color represents the ID 33 and the light-yellow color represents ID 7.
 
 ![](picture/12.png)
 
@@ -166,7 +168,7 @@ Audience can find how to combine traditional plotting methods with geospatial vi
 
 # Future Work
 
-There are some improvements we can make for better performance. First, there are some visualizations that might be suitable for static but not too good to show in the shiny as well as interactive way, such as heatmap. Therefore, we may need to find some alternatives instead of using heatmap in shiny dashboard. Moreover, we can find more data, such as email or text messages to better defining the relationship between employees. Since the linkages of credit cards and loyalty cards may be not very accurate to define the relationship between employees. Some text data will be helpful to find the relationship and the social networks.
+There are some improvements we can make for better performance. First, there are some visualizations that might be suitable for static but not too good to show in the shiny as well as interactive way, such as heatmap. Therefore, we may need to add some static visualizations to help us analyze in the future work. Moreover, we can find more data, such as email or text messages to better defining the relationship between employees. Since the linkages of credit cards and loyalty cards may be not very accurate to define the relationship between employees. Some text data will be helpful to find the relationship and the social networks.
 
 # References
 
