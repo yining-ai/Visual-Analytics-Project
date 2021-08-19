@@ -11,6 +11,6 @@ output:
     self_contained: false
 ---
 
-Shiny dashboard is available at: *[visual project shiny app]( https://perry-lin.shinyapps.io/Visual-Analytics-Project/)*
+Shiny dashboard is available at: *[visual project shiny app]( https://perry-lin.shinyapps.io/G2-Group08/)*
 
 The source code and data are available at *[github.com](https://github.com/yining-ai/Visual-Analytics-Project)*
